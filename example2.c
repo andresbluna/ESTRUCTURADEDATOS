@@ -1,14 +1,19 @@
 #include<stdio.h>
+#include<stdbool.h>
 
+int main() {
+    int x;
+    int y;
 
-int main(){
+    printf("Ingrese un número entero: ");
+    scanf("%d", & x);
 
-    int z = 14;
-    int x = 64;
+    if (x && y % 2 == 0) {
+        printf("El número es par.\n");
+    } else {
+        printf("El número es impar.\n");
+    }
 
-printf(z,x);
-
-return 0;
-
+    return 0;
 }
 
