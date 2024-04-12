@@ -11,7 +11,9 @@ num = a[2];
 
 /*Arreglos multidimensionales*/
 
-int matriz[50][50]
+int matriz[50]/*filas*/[50]/*columnas*/
+
+return 0;
 
 
 }
