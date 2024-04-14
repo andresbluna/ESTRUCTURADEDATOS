@@ -10,7 +10,6 @@ int main(){
     /* \0 sirve para terminar la cadena de texto*/
 
 
-
     return 0;
 
 }

@@ -4,6 +4,8 @@ int main(){
 
     char dato;
     char *punt;
+
+    printf(*punt);
     
 
  return 0;   
