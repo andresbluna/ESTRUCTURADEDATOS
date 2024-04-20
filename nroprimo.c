@@ -8,6 +8,8 @@ int main () {
     printf("Ingrese un numero /n");
     scanf("%d", &f );
 
+    /* new main function*/*/
+
 
     
         for(int i = 2; i < f ; i++){
