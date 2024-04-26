@@ -1,21 +1,17 @@
 #include <stdio.h>
 
-int main () {
-
-    int f;
-    int flag = 1;
-
-    printf("Ingrese un numero");
-    scanf("%d", &f );
-
-    /* new main function*/
-
-        for(int i = 2; i < f ; i++){
-            if(f %i == 0){
-
-            }
-        }
 
 
-    return 0;
+void mostrarArreglo(int [], int);
+
+int main(){
+
+
+int arreglo[] = {1,2,3,4,4,5,6,7,8};
+int tamano = 6;
+mostrarArreglo(arreglo, tamano);
+
+return 0;
+
 }
+
